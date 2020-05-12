@@ -2,8 +2,8 @@
 <html>
 <body>
 
-<?php foreach($getdata as $data) : ?>
 <form action="<?= site_url('cams/gupit') ?>" method="post">
+<?php foreach($getdata as $data) : ?>
 	<table>
 		<tr>
 			<td>
@@ -148,8 +148,8 @@
 			</td></td>
 		</tr>
 	</table>
-</form>
 <?php endforeach ?>
+</form>
 
 <script type="text/javascript" src="<?= base_url('assets/js/jquery_320_min.js') ?>"></script>
 <script type="text/javascript">

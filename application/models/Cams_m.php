@@ -33,7 +33,7 @@ class Cams_m extends CI_Model
 	public function send_rumdata()
 	{
 		$data = array(
-			'id_stasiun' 		=> $this->input->post('id_stasiun'),
+			'id_stasiun' 		=> 'SKH_RUM',
 			'waktu' 			=> $this->input->post('waktu'),
 			'h2s' 				=> $this->input->post('h2s'),
 			'cs2' 				=> $this->input->post('cs2'),
@@ -86,7 +86,7 @@ class Cams_m extends CI_Model
 	public function send_gupitdata()
 	{
 		$data = array(
-			'id_stasiun' 		=> $this->input->post('id_stasiun'),
+			'id_stasiun' 		=> 'SKH_GUPIT',
 			'waktu' 			=> $this->input->post('waktu'),
 			'h2s' 				=> $this->input->post('h2s'),
 			'cs2' 				=> $this->input->post('cs2'),
@@ -139,7 +139,7 @@ class Cams_m extends CI_Model
 	public function send_plesandata()
 	{
 		$data = array(
-			'id_stasiun' 		=> $this->input->post('id_stasiun'),
+			'id_stasiun' 		=> 'SKH_PLESAN',
 			'waktu' 			=> $this->input->post('waktu'),
 			'h2s' 				=> $this->input->post('h2s'),
 			'cs2' 				=> $this->input->post('cs2'),
